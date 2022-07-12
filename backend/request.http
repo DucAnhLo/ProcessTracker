@@ -1,0 +1,23 @@
+POST http://localhost:5010/api/v1/login
+Content-Type: application/json
+
+{
+    "username":"duc",
+    "password":"123456"
+}
+
+# GET http://localhost:5010/api/v1/localhost:5010/api/v1/auth/login
+# Content-Type: application/json
+
+# {
+#     "username":"",
+#     "password":""
+# }
+
+# POST http://localhost:5010/api/v1/localhost:5010/api/v1/auth/register
+# Content-Type: application/json
+
+# {
+#     "username":"bo",
+#     "password":"123456"
+# }
