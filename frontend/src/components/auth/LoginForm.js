@@ -10,17 +10,17 @@ const LoginForm = () => {
                 <h1>Process Tracker</h1>
                 <h4>Keep Track Of Your Working</h4>
                 <Form className='my-4'>
-                  <Form.Group>
+                  <Form.Group className='mt-2'>
                     <Form.Control type='text' placeholder='Username' name='username' required>
                     </Form.Control>
                   </Form.Group>
 
-                  <Form.Group>
+                  <Form.Group className='mt-2'>
                   <Form.Control type='text' placeholder='Password' name='password' required>
                     </Form.Control>
                   </Form.Group>
 
-                  <Button variant='sucess' type='submit' className='ml-2 btn-primary'>Login</Button>
+                  <Button variant='sucess' type='submit' className='ml-2 btn-primary mt-2'>Login</Button>
                 </Form>
 
                 <p>Dont have an account? 
